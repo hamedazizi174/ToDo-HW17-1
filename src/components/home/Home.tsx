@@ -1,3 +1,11 @@
+import AddToDo from "./AddToDo/AddToDo";
+import ToDoList from "./ToDoList/ToDoList";
+
 export default function Home() {
-  return <div>hi</div>;
+  return (
+    <div className="p-10 w-1/3">
+      <ToDoList />
+      <AddToDo />
+    </div>
+  );
 }
